@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/azureimageItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true" />
+    <LinearLayout
+        android:id="@+id/azurelinearText"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px">
+        <Button
+            android:id="@+id/viewazureimagebutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Image" />
+        <Button
+            android:id="@+id/deleteazureimagebutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete This Image" />
+        <TextView
+            android:id="@+id/azuretextTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/azuretextBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/LocalWebView" />
+</LinearLayout>
